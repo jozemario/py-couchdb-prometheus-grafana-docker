@@ -3,4 +3,4 @@ scrape_configs:
     metrics_path: /metrics
     static_configs:
       - targets:
-        - host.docker.internal:3500
+        - app:3500

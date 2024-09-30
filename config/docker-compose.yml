@@ -21,6 +21,8 @@ services:
     restart: unless-stopped
     expose:
       - 4000
+    ports:
+      - 4000:4000
     network_mode: host
     user: "472"
     labels:
@@ -38,6 +40,20 @@ services:
     ports:
       - "5984:5984"
       - "6984:6984"
+  app:
+    build:
+      context: ../
+    ports:
+      - "3500:3500"
+    restart: always
+    volumes:
+      - ../:/app
+    environment:
+      - FLASK_ENV=production
+    depends_on:
+      - couchdb
+      - prometheus
+      - grafana
 
 volumes:
   couchdb_data:

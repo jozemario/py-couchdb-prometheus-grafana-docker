@@ -3398,3 +3398,118 @@ werkzeug.exceptions.InternalServerError: 500 Internal Server Error: The server e
 15:49:29,153 werkzeug INFO 127.0.0.1 - - [30/Sep/2024 15:49:29] "GET /metrics HTTP/1.1" 200 -
 15:50:29,151 root INFO Getting Metrics
 15:50:29,152 werkzeug INFO 127.0.0.1 - - [30/Sep/2024 15:50:29] "GET /metrics HTTP/1.1" 200 -
+22:07:55,779 root INFO dict_values(['localhost', '5984', 'admin', 'password', 'db_course'])
+22:07:55,784 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:5984
+22:09:03,280 root INFO dict_values(['localhost', '5984', 'admin', 'password', 'db_course'])
+22:09:03,282 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:5984
+22:09:03,986 root INFO dict_values(['localhost', '5984', 'admin', 'password', 'db_course'])
+22:09:03,986 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:5984
+22:09:04,643 root INFO dict_values(['localhost', '5984', 'admin', 'password', 'db_course'])
+22:09:04,644 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:5984
+22:09:05,369 root INFO dict_values(['localhost', '5984', 'admin', 'password', 'db_course'])
+22:09:05,369 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:5984
+22:09:06,573 root INFO dict_values(['localhost', '5984', 'admin', 'password', 'db_course'])
+22:09:06,574 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:5984
+22:09:08,508 root INFO dict_values(['localhost', '5984', 'admin', 'password', 'db_course'])
+22:09:08,509 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:5984
+22:09:12,76 root INFO dict_values(['localhost', '5984', 'admin', 'password', 'db_course'])
+22:09:12,77 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:5984
+22:09:18,909 root INFO dict_values(['localhost', '5984', 'admin', 'password', 'db_course'])
+22:09:18,910 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:5984
+22:09:32,286 root INFO dict_values(['localhost', '5984', 'admin', 'password', 'db_course'])
+22:09:32,287 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:5984
+22:09:58,354 root INFO dict_values(['localhost', '5984', 'admin', 'password', 'db_course'])
+22:09:58,354 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:5984
+22:10:59,882 root INFO dict_values(['couchdb', '5984', 'admin', 'password', 'db_course'])
+22:10:59,883 urllib3.connectionpool DEBUG Starting new HTTP connection (1): couchdb:5984
+22:11:00,511 root INFO dict_values(['couchdb', '5984', 'admin', 'password', 'db_course'])
+22:11:00,511 urllib3.connectionpool DEBUG Starting new HTTP connection (1): couchdb:5984
+22:11:00,539 urllib3.connectionpool DEBUG http://couchdb:5984 "HEAD /db_course HTTP/11" 200 0
+22:11:00,542 urllib3.connectionpool DEBUG http://couchdb:5984 "GET /db_course/_design/courses HTTP/11" 200 617
+22:11:00,592 urllib3.connectionpool DEBUG http://couchdb:5984 "PUT /db_course/_design/courses HTTP/11" 201 80
+22:11:00,594 urllib3.connectionpool DEBUG http://couchdb:5984 "GET /db_course/_design/courses HTTP/11" 200 617
+22:11:00,601 urllib3.connectionpool DEBUG http://couchdb:5984 "PUT /db_course/_design/courses HTTP/11" 201 80
+22:11:00,602 urllib3.connectionpool DEBUG http://couchdb:5984 "GET /db_course/_design/courses HTTP/11" 200 617
+22:11:00,608 urllib3.connectionpool DEBUG http://couchdb:5984 "PUT /db_course/_design/courses HTTP/11" 201 80
+22:11:00,608 root INFO Connected to CouchDB
+22:11:00,608 root INFO DB Info: <CouchDB Database "db_course">
+22:11:00,608 root DEBUG Application Started ...
+22:11:00,635 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3500
+ * Running on http://172.28.0.4:3500
+22:11:00,635 werkzeug INFO [33mPress CTRL+C to quit[0m
+22:11:00,636 werkzeug INFO  * Restarting with stat
+22:11:00,771 root INFO dict_values(['couchdb', '5984', 'admin', 'password', 'db_course'])
+22:11:00,772 urllib3.connectionpool DEBUG Starting new HTTP connection (1): couchdb:5984
+22:11:00,774 urllib3.connectionpool DEBUG http://couchdb:5984 "HEAD /db_course HTTP/11" 200 0
+22:11:00,780 urllib3.connectionpool DEBUG http://couchdb:5984 "GET /db_course/_design/courses HTTP/11" 200 617
+22:11:00,790 urllib3.connectionpool DEBUG http://couchdb:5984 "PUT /db_course/_design/courses HTTP/11" 201 80
+22:11:00,791 urllib3.connectionpool DEBUG http://couchdb:5984 "GET /db_course/_design/courses HTTP/11" 200 617
+22:11:00,799 urllib3.connectionpool DEBUG http://couchdb:5984 "PUT /db_course/_design/courses HTTP/11" 201 80
+22:11:00,801 urllib3.connectionpool DEBUG http://couchdb:5984 "GET /db_course/_design/courses HTTP/11" 200 617
+22:11:00,809 urllib3.connectionpool DEBUG http://couchdb:5984 "PUT /db_course/_design/courses HTTP/11" 201 80
+22:11:00,809 root INFO Connected to CouchDB
+22:11:00,809 root INFO DB Info: <CouchDB Database "db_course">
+22:11:00,809 root DEBUG Application Started ...
+22:11:00,817 werkzeug WARNING  * Debugger is active!
+22:11:00,819 werkzeug INFO  * Debugger PIN: 120-565-901
+22:11:05,357 root INFO Getting Metrics
+22:11:05,357 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:11:05] "GET /metrics HTTP/1.1" 200 -
+22:12:05,371 root INFO Getting Metrics
+22:12:05,372 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:12:05] "GET /metrics HTTP/1.1" 200 -
+22:12:13,131 root INFO Rendering the Home Page
+22:12:13,137 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:13] "GET /pyuniversity/home HTTP/1.1" 200 -
+22:12:13,235 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:13] "GET /static/images/logo.png HTTP/1.1" 200 -
+22:12:13,235 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:13] "GET /static/css/grid.css HTTP/1.1" 200 -
+22:12:13,236 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:13] "GET /static/css/home.css HTTP/1.1" 200 -
+22:12:13,346 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:13] "GET /static/images/background.jpg HTTP/1.1" 200 -
+22:12:13,475 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:13] "GET /static/images/logo.png HTTP/1.1" 200 -
+22:12:15,351 root INFO Searching for the requested course
+22:12:15,352 root INFO Implement
+22:12:15,387 urllib3.connectionpool DEBUG http://couchdb:5984 "GET /db_course/_design/courses/_view/by_partial_name?partition=courses&startkey=%22Implement%22&endkey=%22Implement%5Cufff0%22&reduce=False&include_docs=True HTTP/11" 200 None
+22:12:15,390 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:15] "POST /pyuniversity/home HTTP/1.1" 200 -
+22:12:15,416 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:15] "GET /static/css/result.css HTTP/1.1" 200 -
+22:12:15,416 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:15] "GET /static/images/learn.jpg HTTP/1.1" 200 -
+22:12:15,417 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:15] "GET /static/css/grid.css HTTP/1.1" 200 -
+22:12:15,417 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:15] "GET /static/images/logo.png HTTP/1.1" 200 -
+22:12:15,441 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:15] "GET /static/images/background.jpg HTTP/1.1" 200 -
+22:12:17,24 root INFO Rendering the Home Page
+22:12:17,25 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:17] "GET /pyuniversity/home HTTP/1.1" 200 -
+22:12:17,46 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:17] "GET /static/css/grid.css HTTP/1.1" 200 -
+22:12:17,47 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:17] "GET /static/css/home.css HTTP/1.1" 200 -
+22:12:17,47 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:17] "GET /static/images/logo.png HTTP/1.1" 200 -
+22:12:17,57 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:17] "GET /static/images/background.jpg HTTP/1.1" 200 -
+22:12:19,497 root INFO Searching for the requested course
+22:12:19,497 root INFO gcrp
+22:12:19,499 urllib3.connectionpool DEBUG http://couchdb:5984 "GET /db_course/_design/courses/_view/by_partial_name?partition=courses&startkey=%22gcrp%22&endkey=%22gcrp%5Cufff0%22&reduce=False&include_docs=True HTTP/11" 200 None
+22:12:19,500 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:19] "POST /pyuniversity/home HTTP/1.1" 200 -
+22:12:19,561 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:19] "GET /static/images/logo.png HTTP/1.1" 200 -
+22:12:19,563 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:19] "GET /static/css/result.css HTTP/1.1" 200 -
+22:12:19,568 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:19] "GET /static/css/grid.css HTTP/1.1" 200 -
+22:12:19,626 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:19] "GET /static/images/background.jpg HTTP/1.1" 200 -
+22:12:20,850 root INFO Rendering the Home Page
+22:12:20,851 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:20] "GET /pyuniversity/home HTTP/1.1" 200 -
+22:12:20,874 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:20] "GET /static/css/grid.css HTTP/1.1" 200 -
+22:12:20,875 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:20] "GET /static/images/logo.png HTTP/1.1" 200 -
+22:12:20,875 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:20] "GET /static/css/home.css HTTP/1.1" 200 -
+22:12:20,892 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:20] "GET /static/images/background.jpg HTTP/1.1" 200 -
+22:12:23,273 root INFO Searching for the requested course
+22:12:23,274 root INFO build
+22:12:23,287 urllib3.connectionpool DEBUG http://couchdb:5984 "GET /db_course/_design/courses/_view/by_partial_name?partition=courses&startkey=%22build%22&endkey=%22build%5Cufff0%22&reduce=False&include_docs=True HTTP/11" 200 None
+22:12:23,288 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:23] "POST /pyuniversity/home HTTP/1.1" 200 -
+22:12:23,310 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:23] "GET /static/css/grid.css HTTP/1.1" 200 -
+22:12:23,310 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:23] "GET /static/images/logo.png HTTP/1.1" 200 -
+22:12:23,313 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:23] "GET /static/images/learn.jpg HTTP/1.1" 200 -
+22:12:23,315 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:23] "GET /static/css/result.css HTTP/1.1" 200 -
+22:12:23,338 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:23] "GET /static/images/background.jpg HTTP/1.1" 200 -
+22:12:24,701 root INFO Rendering the Home Page
+22:12:24,702 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:24] "GET /pyuniversity/home HTTP/1.1" 200 -
+22:12:24,735 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:24] "GET /static/css/home.css HTTP/1.1" 200 -
+22:12:24,735 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:24] "GET /static/images/logo.png HTTP/1.1" 200 -
+22:12:24,737 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:24] "GET /static/css/grid.css HTTP/1.1" 200 -
+22:12:24,746 werkzeug INFO 172.28.0.1 - - [30/Sep/2024 22:12:24] "GET /static/images/background.jpg HTTP/1.1" 200 -
+22:13:05,358 root INFO Getting Metrics
+22:13:05,359 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:13:05] "GET /metrics HTTP/1.1" 200 -
+22:14:05,358 root INFO Getting Metrics
+22:14:05,359 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:14:05] "GET /metrics HTTP/1.1" 200 -
