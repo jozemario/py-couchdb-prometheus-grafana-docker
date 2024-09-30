@@ -1,3 +1,6 @@
 /config/grafana/
 /config/__DATA__/
 /.venv/
+__pycache__
+.idea
+logs
