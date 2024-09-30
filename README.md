@@ -32,3 +32,7 @@ http://localhost:9090/
 #You will navigate to the home page of Prometheus. 
 # Then click on target button from Status menu, you will find all the exporters from which Prometheus retrieves metrics
 ```
+
+```bash
+Open any browser and type http://localhost:3000. You can now access the Grafana Web UI using the default login/password admin/admin
+```
