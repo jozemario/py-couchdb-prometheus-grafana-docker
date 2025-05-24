@@ -3513,3 +3513,77 @@ werkzeug.exceptions.InternalServerError: 500 Internal Server Error: The server e
 22:13:05,359 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:13:05] "GET /metrics HTTP/1.1" 200 -
 22:14:05,358 root INFO Getting Metrics
 22:14:05,359 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:14:05] "GET /metrics HTTP/1.1" 200 -
+22:15:05,360 root INFO Getting Metrics
+22:15:05,361 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:15:05] "GET /metrics HTTP/1.1" 200 -
+22:16:05,359 root INFO Getting Metrics
+22:16:05,360 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:16:05] "GET /metrics HTTP/1.1" 200 -
+22:17:05,360 root INFO Getting Metrics
+22:17:05,361 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:17:05] "GET /metrics HTTP/1.1" 200 -
+22:18:05,360 root INFO Getting Metrics
+22:18:05,362 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:18:05] "GET /metrics HTTP/1.1" 200 -
+22:19:05,359 root INFO Getting Metrics
+22:19:05,361 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:19:05] "GET /metrics HTTP/1.1" 200 -
+22:20:05,361 root INFO Getting Metrics
+22:20:05,362 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:20:05] "GET /metrics HTTP/1.1" 200 -
+22:21:05,361 root INFO Getting Metrics
+22:21:05,362 werkzeug INFO 172.28.0.2 - - [30/Sep/2024 22:21:05] "GET /metrics HTTP/1.1" 200 -
+19:44:57,791 root INFO dict_values(['192.168.10.206', '30251', 'admin', 'password', 'db_course'])
+19:44:57,802 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 192.168.10.206:30251
+19:44:57,828 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "HEAD /db_course HTTP/11" 200 0
+19:44:57,837 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "GET /db_course/_design/courses HTTP/11" 404 41
+20:35:09,970 root INFO dict_values(['192.168.10.206', '30251', 'admin', 'password', 'db_course'])
+20:35:09,974 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 192.168.10.206:30251
+20:35:09,988 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "HEAD /db_course HTTP/11" 200 0
+20:35:09,995 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "GET /db_course/_design/courses HTTP/11" 200 311
+20:35:10,15 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "PUT /db_course/_design/courses HTTP/11" 201 78
+20:35:10,21 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "GET /db_course/_design/courses HTTP/11" 200 305
+20:35:10,44 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "PUT /db_course/_design/courses HTTP/11" 201 78
+20:35:10,51 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "GET /db_course/_design/courses HTTP/11" 200 299
+20:35:10,80 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "PUT /db_course/_design/courses HTTP/11" 201 78
+20:35:10,80 root INFO Connected to CouchDB
+20:35:10,80 root INFO DB Info: <CouchDB Database "db_course">
+20:35:10,80 root DEBUG Application Started ...
+20:35:10,211 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3500
+ * Running on http://192.168.10.39:3500
+20:35:10,211 werkzeug INFO [33mPress CTRL+C to quit[0m
+20:35:10,212 werkzeug INFO  * Restarting with stat
+20:35:10,351 root INFO dict_values(['192.168.10.206', '30251', 'admin', 'password', 'db_course'])
+20:35:10,355 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 192.168.10.206:30251
+20:35:10,365 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "HEAD /db_course HTTP/11" 200 0
+20:35:10,371 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "GET /db_course/_design/courses HTTP/11" 200 615
+20:35:10,398 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "PUT /db_course/_design/courses HTTP/11" 201 78
+20:35:10,404 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "GET /db_course/_design/courses HTTP/11" 200 615
+20:35:10,431 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "PUT /db_course/_design/courses HTTP/11" 201 78
+20:35:10,437 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "GET /db_course/_design/courses HTTP/11" 200 615
+20:35:10,459 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "PUT /db_course/_design/courses HTTP/11" 201 78
+20:35:10,459 root INFO Connected to CouchDB
+20:35:10,459 root INFO DB Info: <CouchDB Database "db_course">
+20:35:10,459 root DEBUG Application Started ...
+20:35:10,473 werkzeug WARNING  * Debugger is active!
+20:35:10,481 werkzeug INFO  * Debugger PIN: 510-557-244
+20:36:11,869 root INFO Creating Course
+20:36:11,898 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "PUT /db_course/courses:12d5c720-bec3-48ef-8e1d-ef952a76d9dc HTTP/11" 201 107
+20:36:11,899 root INFO Created Course with ID: courses:12d5c720-bec3-48ef-8e1d-ef952a76d9dc
+20:36:11,899 root INFO Created Course with Rev: 1-d05be34101961b279849a84104f47b9a
+20:36:11,899 root INFO Created Course Successfully
+20:36:11,900 werkzeug INFO 127.0.0.1 - - [23/May/2025 20:36:11] "[35m[1mPOST /pyuniversity/courses HTTP/1.1[0m" 201 -
+20:36:17,681 root INFO Creating Course
+20:36:17,709 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "PUT /db_course/courses:d82f5481-602e-4f6f-926a-eb755d7b3007 HTTP/11" 201 107
+20:36:17,709 root INFO Created Course with ID: courses:d82f5481-602e-4f6f-926a-eb755d7b3007
+20:36:17,709 root INFO Created Course with Rev: 1-b1da1a92ce4fa92bdc2cb5bd65e5c06e
+20:36:17,709 root INFO Created Course Successfully
+20:36:17,711 werkzeug INFO 127.0.0.1 - - [23/May/2025 20:36:17] "[35m[1mPOST /pyuniversity/courses HTTP/1.1[0m" 201 -
+20:36:22,772 root INFO Creating Course
+20:36:22,790 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "PUT /db_course/courses:d3b2acdf-dec3-4289-900b-9f78b828bb4f HTTP/11" 201 107
+20:36:22,791 root INFO Created Course with ID: courses:d3b2acdf-dec3-4289-900b-9f78b828bb4f
+20:36:22,791 root INFO Created Course with Rev: 1-9a896822b124e91108cd17438562eefa
+20:36:22,791 root INFO Created Course Successfully
+20:36:22,791 werkzeug INFO 127.0.0.1 - - [23/May/2025 20:36:22] "[35m[1mPOST /pyuniversity/courses HTTP/1.1[0m" 201 -
+20:36:27,86 root INFO Creating Course
+20:36:27,243 urllib3.connectionpool DEBUG http://192.168.10.206:30251 "PUT /db_course/courses:ea72beaa-4afb-4805-8aa2-ca7d27398aeb HTTP/11" 201 107
+20:36:27,244 root INFO Created Course with ID: courses:ea72beaa-4afb-4805-8aa2-ca7d27398aeb
+20:36:27,244 root INFO Created Course with Rev: 1-54f1e6b52b6ca9947a35b52bbdc62a01
+20:36:27,244 root INFO Created Course Successfully
+20:36:27,245 werkzeug INFO 127.0.0.1 - - [23/May/2025 20:36:27] "[35m[1mPOST /pyuniversity/courses HTTP/1.1[0m" 201 -

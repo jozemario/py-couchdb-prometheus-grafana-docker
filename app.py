@@ -12,7 +12,7 @@ import time
 
 app = Flask(__name__)
 
-env_path = "./src/.env"
+env_path = ".env"
 load_dotenv(env_path)
 REQUEST_COUNT = Counter('app_request_count', 'Application Request Count', ['method', 'endpoint', 'http_status'])
 REQUEST_LATENCY = Histogram('app_request_latency_seconds', 'Application Request Latency',

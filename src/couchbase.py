@@ -17,6 +17,8 @@ class CouchDBClient:
     def connect(self):
         try:
             url = f"http://{self.username}:{self.password}@{self.host}:{self.port}"
+            print(f"Connecting to CouchDB at {url} with database '{self.database_name}'")
+
             self.server = pycouchdb.Server(url)
             self.db = self.server.database(self.database_name)
             print(f"Connected to CouchDB at {url}")
